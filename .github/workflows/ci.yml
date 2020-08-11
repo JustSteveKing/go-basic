@@ -32,8 +32,5 @@ jobs:
           dep ensure
         fi
 
-    - name: Build binary
-      run: go build -v .
-
     - name: Run Tests
       run: go test ./...
